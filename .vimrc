@@ -49,4 +49,4 @@ function! CompileAndRun()
         endif
 endfunction
 
-nnoremap <F5> :call CompileAndRun() <CR>
+nnoremap ff :call CompileAndRun() <CR>
