@@ -23,8 +23,6 @@ set ttyfast
 set laststatus=2
 
 set showcmd
-set background=dark
-
 " CompileAndRun() add-on feature
 function! CompileAndRun()
         let ext = expand("%:e")
@@ -48,5 +46,3 @@ function! CompileAndRun()
                 execute "!node %:p"
         endif
 endfunction
-
-nnoremap ff :call CompileAndRun() <CR>
